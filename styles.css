@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+}
+
+#inp-section{
+    padding-top: 35px;
+    padding-bottom: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    background: #6943FF;
+    color: #F4F4F4;
+}
+
+h1{
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+#inp-value{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 120px;
+    height: 80px;
+    background: none;
+    border: 2px solid #B295FF;
+    border-radius: 5px;
+    font-weight: bolder;
+    font-size: 60px;
+    color: #F4F4F4;
+    text-align: center;
+    
+}
+
+input{
+    border-style: none;
+    outline-style: none;
+    appearance: none;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0; /* Important: removes the space occupied by the arrows */
+}
+
+button{
+    width: 120px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#conversion-section{
+    padding-top: 20px;
+    background: #F4F4F4;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.conversion-box{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 80%;
+    height: 110px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    text-align: center;
+}
+
+h3{
+    font-size: 20px;
+    font-weight: bold;
+    color: #5A537B;
+}
+
